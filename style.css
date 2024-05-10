@@ -27,12 +27,12 @@ header li a {
     color: #000000;
     text-decoration: none;
     display: block;
-    padding: 0,30px;
+    padding: 0 30px;
 }
 
 header li img{
     display: block;
-    padding: 0,20px;
+    padding: 0 20px;
 }
 
 
@@ -50,7 +50,7 @@ ul>li{
 
 
 .right.leftnav{
-    padding: 0,20px,0,0;
+    padding: 0 20px 0 0;
 }
 
 .botton{
@@ -60,7 +60,11 @@ ul>li{
     color: #ffffff;
     padding: 10px 20px;
     line-height: 1;
-    all: unset;
     cursor: pointer;
-    
+    border-bottom: 2px solid;
+
+}
+
+.botton>a{
+    color: #ffffff;
 }
