@@ -126,7 +126,12 @@ h1{
     padding-right: 40px;
 }
 
-.firstpartbox>a,span{
+.firstpartbox > a{
+    margin-top: 30px;
+}
+
+
+.firstpartbox > span{
     margin-top: 30px;
 }
 
@@ -155,7 +160,6 @@ h1{
 .boxmain2{
     padding: 40px 40px 35px;
     margin-bottom: 25px;
-    margin-left: 300px;
  }
 
 .colonna{
@@ -167,8 +171,11 @@ h1{
     text-align: center;
 }
 
-.boxmain2 .colonna2{
-    padding: 40px 40px 35px;
+.colonna2{
+    padding: 40px 40px 55px;
+}
+
+.colonna2{
 }
 
 .boxmain2 .colonna2 h3{
@@ -252,5 +259,20 @@ li.boxflex>span{
 
 .offerte .boxflex .colonna .text:last-child{
     flex-grow: 2;
+}
+
+.fattura{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fixbotton{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.offerte{
+    justify-content: space-around;
 }
 
