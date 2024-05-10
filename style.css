@@ -134,12 +134,17 @@ h1{
 
 /* seconda parte main */
 
+.boxmain2{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .piani{
     padding: 65px 0 50px;
     padding-top: 150px;
 }
 
-.fattura{
+.piani .fattura .boxmain2 .boxflex{
     padding: 65px 0 50px;
   
 }
@@ -152,4 +157,100 @@ h1{
     margin-bottom: 25px;
     margin-left: 300px;
  }
+
+.colonna{
+    width: calc((100% - 100px) / 3 );
+}
+
+.boxmain2 .testotop{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.boxmain2 .colonna2{
+    padding: 40px 40px 35px;
+}
+
+.boxmain2 .colonna2 h3{
+    margin-bottom: 25px;
+}
+
+.colonna2 .periodo {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.dettagli{
+    padding-top: 30px;
+}
+
+.boxmain2 .colonna2 ul li{
+    padding-top: 20px;
+}
+
+.boxmain2 .colonna2 .text{
+    margin: 20px 0 40px;
+}
+
+section .piani .boxmain2 .colonna2 .text{
+    margin: 20px 0 40px;
+}
+
+
+.boxmain2 .colonna2 .testoicona{
+    line-height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.testoofferte{
+    height: 310px;
+}
+
+.dettaglisecond li .boxflex>i{
+    color: #0061ff;
+    align-items: flex-start;
+}
+
+
+.colonna2>a.botton{
+    width: 100%;
+    text-align: center;
+    display:inline-block ;
+    padding: 15px 0;
+
+}
+
+
+li.boxflex>span{
+    padding-left: 7px;
+}
+
+.colonna2>hr {
+    margin-bottom: 40px;
+    width: 20%;
+
+}
+
+.offerte>.colonna{
+    border: 2px solid #d0d0d3;
+}
+
+.offerte>.colonna>.testotop{
+    border: 2px solid #d0d0d3;
+}
+
+
+.offerte.boxflex{
+    flex-wrap: wrap;
+}
+
+.offerte>.colonna2{
+    height: 100%;
+}
+
+.offerte .boxflex .colonna .text:last-child{
+    flex-grow: 2;
+}
 
